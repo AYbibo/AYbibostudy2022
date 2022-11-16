@@ -1,0 +1,19 @@
+高级查询语句
+    模糊查询和正则查询
+        like 用于模糊查询 % 表示0或多个字符 _表示任意一个字符
+        regexp 正则表达式
+
+    排序
+        order by   asc升序 desc降序
+
+    分页-限制
+        limit 限制select语句返回的数据数量 或者update delete的操作数量
+
+    联合查询
+        union 连接两个以上的select语句 把结果合并在一起
+            出现重复的默认会删除重复的  union [all | distinct] all不会删除重复
+
+
+
+
+
